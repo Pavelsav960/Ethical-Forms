@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ethical-Forms/static/css/main.477cb8b4.css",
+    "main.js": "/Ethical-Forms/static/js/main.138c5102.js",
+    "static/js/453.ad82ed44.chunk.js": "/Ethical-Forms/static/js/453.ad82ed44.chunk.js",
+    "index.html": "/Ethical-Forms/index.html",
+    "main.477cb8b4.css.map": "/Ethical-Forms/static/css/main.477cb8b4.css.map",
+    "main.138c5102.js.map": "/Ethical-Forms/static/js/main.138c5102.js.map",
+    "453.ad82ed44.chunk.js.map": "/Ethical-Forms/static/js/453.ad82ed44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.477cb8b4.css",
+    "static/js/main.138c5102.js"
+  ]
+}
