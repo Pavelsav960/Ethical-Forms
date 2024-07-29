@@ -1,0 +1,89 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start; /* Align items at the start of the flex container */
+    height: 100vh;
+    padding-top: 50px; /* Add padding to move the form down */
+}
+
+form {
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 1em 0 0.5em;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+input[type="file"] {
+  margin-top: 1em;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #555;
+}
+
+label input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  width: 100%;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
